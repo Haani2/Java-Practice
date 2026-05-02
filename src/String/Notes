@@ -1,0 +1,4 @@
+remeber the diffrence between storing the value in result/ans then updating it inside the loop
+and just returing the element by the index i value ;
+
+also in binnary search update the position and also increment/decrement the start/end pointer inside it too
