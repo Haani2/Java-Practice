@@ -1,0 +1,15 @@
+
+HashMap Mistake Notes (Important)
+1️⃣ Always be clear: What is key? What is value?
+Decide first:
+value → index ✅ (correct for major problems)
+NOT index → value ❌
+👉 Ask yourself:
+“What do I need to find quickly?”
+
+2️⃣Pattern to remember (template)
+if (map.containsKey(nums[i])) {
+    check condition using previous index
+}
+update map with current index
+}
