@@ -1,6 +1,6 @@
 package ASCII;
-
 import java.util.Arrays;
+
 
 public class EncodedString {
     public static void main(String[] args) {
