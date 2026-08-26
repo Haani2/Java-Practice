@@ -1,0 +1,12 @@
+  boolean solve(/* params */) {
+    if (/* base condition */) {
+        return true; // or false, depending on the base case
+    }
+
+    // reduce the problem, combine with && or ||
+    return someCondition && solve(/* smaller input */);
+  }
+
+The two building blocks:
+Base case — a condition simple enough to answer directly (return true; or return false;)
+Recursive case — combine a check on the current piece with the recursive call using && (all must hold) or || (any one must hold)
