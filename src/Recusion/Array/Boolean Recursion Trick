@@ -2,7 +2,6 @@
     if (/* base condition */) {
         return true; // or false, depending on the base case
     }
-
     // reduce the problem, combine with && or ||
     return someCondition && solve(/* smaller input */);
   }
