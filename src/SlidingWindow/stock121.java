@@ -19,6 +19,6 @@ public class stock121 {
                 max=Math.max(max,profit);
 
         }
-        return max;
+        return max; 
     }
 }

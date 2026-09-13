@@ -27,9 +27,9 @@ int end=max;
     public int requiredTime(int[] piles, int i) {
         int totalTime = 0;
 
-        for(int j = 0; j < piles.length; j++) {
+        for (int pile : piles) {
 
-            totalTime += (piles[j] + i - 1) / i;
+            totalTime += (pile + i - 1) / i;
         }
         return totalTime;
     }

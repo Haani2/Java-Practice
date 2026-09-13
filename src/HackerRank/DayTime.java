@@ -15,5 +15,7 @@ public class DayTime {
         System.out.println(date);
         DayOfWeek day = date.getDayOfWeek();
         System.out.println(day);
+
+
     }
 }
