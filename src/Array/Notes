@@ -7,7 +7,7 @@ NOT index → value ❌
 👉 Ask yourself:
 “What do I need to find quickly?”
 
-2️⃣Pattern to remember (template)
+2️ ⃣ Pattern to remember (template)
 if (map.containsKey(nums[i])) {
     check condition using previous index
 }

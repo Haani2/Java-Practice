@@ -22,6 +22,7 @@ public class pattern {
                     System.out.print("*");
                 }
             }
+
             else {
             for (int colum = 0; colum < row; colum++) {
                 System.out.print("*");
